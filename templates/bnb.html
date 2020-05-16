@@ -1,0 +1,10 @@
+there are {{ wordcount }} word
+<br>
+
+{{ fulltext }}
+<br>
+{{ worddic }}
+{% for word,counttotal in sortedwords%}
+{{word}}-{{counttotal}}
+<br>
+{% endfor %}
